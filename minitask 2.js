@@ -1,5 +1,4 @@
 // menentukan hari dari tanggal yang ada saat ini di pc anda
-// Deklarasi variabel
 let tanggal = new Date();
 let hari = tanggal.getDay();
 let hariIndonesia = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
