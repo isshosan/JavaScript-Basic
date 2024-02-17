@@ -24,12 +24,15 @@ const cekArray2 = arrayBaru.includes ('tertawa')
 const posisiArray = arrayBaru.indexOf('sedih')
 const indexBefore = posisiArray - 1
 const indexAfter = posisiArray + 1
+const firstArray = arrayBaru.shift()
+
 
 console.log(cekArray) //true jika mengandung marah
 console.log(cekArray2) //false jika tidak mengandung
 console.log(posisiArray) //index of digunakan untuk mencari tahu posisi dari array
 console.log('index ke',indexBefore,'adalah',arrayBaru[indexBefore])
 console.log('index ke',indexAfter, 'adalah',arrayBaru[indexAfter])
+console.log('array awal adalah',firstArray)
 
 if (cekArray) {
     console.log("Array berada pada posisi",posisiArray) }
